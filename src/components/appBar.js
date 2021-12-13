@@ -8,18 +8,17 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginBottom: 30,
-    background: 'linear-gradient(to right bottom, #430089, #82ffa1)',
   },
 }))
 
-export default function AppBar() {
+export default function MeAppBar() {
   const classes = useStyles()
 
   return (
     <div className={classes.root}>
       <AppBar position='static'>
         <Toolbar>
-          <Typography variant='h6' fontWeight='fontWeightLight' fontFamily='fontFamily' color='secondary'>
+          <Typography variant='h6' fontWeight='fontWeightLight' fontFamily='fontFamily' color='#FFFFFF'>
             Thomas Couteau
           </Typography>
         </Toolbar>

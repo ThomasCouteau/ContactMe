@@ -21,13 +21,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function Card() {
+export default function MeCard() {
   const classes = useStyles()
 
   return (
     <Container maxWidth='sm'>
       <Card className={classes.root}>
-        <CardHeader avatar={<Avatar alt='Moi' src={Moi} className={classes.large} />} title='Contactez notre équipe' titleTypographyProps={{ variant: 'h6' }} />
+        <CardHeader avatar={<Avatar alt='Moi' src={Moi} className={classes.large} />} title='Contactez moi' titleTypographyProps={{ variant: 'h6' }} />
         <ContactList />
       </Card>
     </Container>

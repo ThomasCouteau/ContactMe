@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "ContactMe",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-theme-material-ui',
+    }
+  ],
 };

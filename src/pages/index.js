@@ -1,19 +1,19 @@
 import React from 'react'
-import Card from '../components/card'
-import favicon from '../images/favicon.png'
+import MeCard from '../components/card'
+import favicon from '../images/icon.png'
 import Helmet from 'react-helmet'
-import AppBar from '../components/appBar'
+import MeAppBar from '../components/appBar'
 
 const IndexPage = () => {
 
   return (
-    <main>
+    <main color='secondary'>
       <Helmet>
         <link rel='icon' href={favicon} />
         <title>Couteau Thomas</title>
       </Helmet>
-      <AppBar />
-      <Card />
+      <MeAppBar />
+      <MeCard />
     </main>
   )
 }
