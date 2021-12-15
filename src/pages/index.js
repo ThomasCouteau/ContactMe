@@ -7,10 +7,10 @@ import MeAppBar from '../components/appBar'
 const IndexPage = () => {
 
   return (
-    <main color='secondary'>
+    <main>
       <Helmet>
         <link rel='icon' href={favicon} />
-        <title>Couteau Thomas</title>
+        <title>Me contacter</title>
       </Helmet>
       <MeAppBar />
       <MeCard />

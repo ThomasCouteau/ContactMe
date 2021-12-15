@@ -27,7 +27,10 @@ export default function MeCard() {
   return (
     <Container maxWidth='sm'>
       <Card className={classes.root}>
-        <CardHeader avatar={<Avatar alt='Moi' src={Moi} className={classes.large} />} title='Contactez moi' titleTypographyProps={{ variant: 'h6' }} />
+        <CardHeader avatar={<Avatar alt='Moi' src={Moi} className={classes.large} />}
+          title='Contactez moi'
+          titleTypographyProps={{ variant: 'h6' }}
+        />
         <ContactList />
       </Card>
     </Container>

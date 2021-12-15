@@ -16,7 +16,7 @@ export default function MeAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position='static'>
+      <AppBar position='static' style={{backgroundColor: '#0F9AD4'}}>
         <Toolbar>
           <Typography variant='h6' fontWeight='fontWeightLight' fontFamily='fontFamily' color='#FFFFFF'>
             Thomas Couteau
